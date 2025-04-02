@@ -14,6 +14,11 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import com.example.dogorow.ui.screens.DogoDetailScreen
+import com.example.dogorow.ui.screens.DogoListScreen
+import com.example.dogorow.ui.screens.DogoViewModel
+import com.example.dogorow.ui.screens.ProfileScreen
+import com.example.dogorow.ui.screens.SettingsScreen
 import com.example.dogorow.ui.theme.DogoRowTheme
 
 class MainActivity : ComponentActivity() {

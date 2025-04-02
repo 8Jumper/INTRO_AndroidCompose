@@ -1,8 +1,9 @@
-package com.example.dogorow
+package com.example.dogorow.ui.screens
 
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
+import com.example.dogorow.data.Dogo
 
 class DogoViewModel : ViewModel() {
     // List of all dogs
@@ -28,7 +29,7 @@ class DogoViewModel : ViewModel() {
 
     init {
         // Initialize with some sample dogs
-        for (i in 1..15) {
+        for (i in 1..3) {
             _dogos.add(
                 Dogo(
                     id = i,

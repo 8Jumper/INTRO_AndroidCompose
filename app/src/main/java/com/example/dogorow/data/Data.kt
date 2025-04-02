@@ -1,4 +1,4 @@
-package com.example.dogorow
+package com.example.dogorow.data
 
 import androidx.compose.ui.graphics.Color
 

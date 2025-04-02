@@ -1,4 +1,4 @@
-package com.example.dogorow
+package com.example.dogorow.ui.screens
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
